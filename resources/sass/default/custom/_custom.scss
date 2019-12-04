@@ -1,0 +1,94 @@
+/** Busca **/
+.input-busca-custom{
+    border-radius: 8px !important;
+    border: 2px solid #000 !important;
+}
+/** Botão Carrinho **/
+#cartButton{
+    background: none !important;
+    padding-bottom: 0px;
+    line-height: 0px !important;
+}
+.ui.basic.primary.button.btn-carrinho{
+    padding-bottom: 0px !important;
+    box-shadow: none !important;
+    &:hover{
+        background: none !important;
+        color: #444 !important;
+    }
+}
+#total_itens_card {
+    top: -50px !important;
+    right: -32px;
+    border-radius: 1rem;
+    &:before{
+        display: none;
+    }
+}
+._header .cartbutton {
+
+    line-height: 0px;
+}
+/**Modificações no card**/
+
+.ui.top.left.attached.label.massive.wishlist {
+    background: none;
+}
+.card.produto .wishlist .bcg-heart {
+    right: 0px !important;
+    border-radius: 4px !important;    
+    padding: 9px !important;
+    padding-top: 3px !important;
+}
+.right.aligned.column.cln-comprar {
+    z-index: 99999;
+    position: relative !important;
+    top: 9em;
+    padding-right: 0px !important;
+}
+.left.aligned.column.cln-wishlist {
+    z-index: 99999;
+    position: relative !important;
+    top: 9em;
+    padding-right: 0px !important;
+}
+.ui.top.left.attached.label.massive.wishlist {
+    padding: 0.56em 0.8em !important;
+}
+.bcg-heart.wishlist-btn {
+    background: #fcfcfc !important;
+    opacity: 0.9;
+}
+i.wishlist-item.icon.heart {
+    color: #00bbad !important;
+}
+.nome-produto{
+    font-size: 15px;
+    font-weight: 500;
+}
+.cln-nome-produto{
+    text-align: center;
+    margin-top: 1em;
+}
+.precoBase{
+    text-decoration: line-through;
+}
+.preco {
+    color: #f3a5cc;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 0.5em;
+}
+.content {
+    .ui.two.column.centered.grid.botoes-card {
+    opacity: 0;
+}
+    &:hover .ui.two.column.centered.grid.botoes-card{
+    opacity: 1;
+    }
+}
+.car-gallery{
+    .slick-track {
+     width: 0 !important;
+    }
+}
